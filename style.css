@@ -1,0 +1,74 @@
+body{
+background-image:url('http://wallpapercave.com/wp/9XPQEzF.jpg');
+background-image: #3A1C71;  /* fallback for old browsers */
+background-image: -webkit-linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background-image: linear-gradient(to left, rgba(255, 175, 123, 0.7), rgba(215, 109, 119, 0.7), rgba(58, 28, 113, 0.7)) ,url(http://wallpapercave.com/wp/9XPQEzF.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  font-color:#FDFDFE;
+  font-size:40px;
+  font-family:'Source Code Pro';
+  padding-bottom: 70px;
+}
+.container{
+  color: white;
+  text-shadow:2px 2px rgba(0, 0, 0, 0.33);
+  min-height:100%;
+  position:relative;
+}
+h3{
+  margin:1%;
+  margin-top:7%;
+}
+a:focus, a:hover{
+  color:#fff;  
+}
+a.disabled{
+  pointer-events: none; 
+}
+a.enabled{
+  pointer-events: auto;
+}
+#play1, #play2{
+  font-size:larger;
+  border-radius:5% 50% 5% 50%;
+  margin:5%;
+  padding:3%;
+}
+#replay,#play1, #play2:hover{
+  cursor:pointer;
+}
+#replay{
+  font-size:xx-large;
+  border-radius:5% 50% 5% 50%;
+  margin-top:5px;
+}
+#bc{
+  background:rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  width:320px;
+  height:auto;
+  padding:1%;
+  margin:auto;
+  margin-bottom:5px;
+  margin-top:10px;
+  box-shadow:2px 2px rgba(0, 0, 0, 0.16);
+}
+.t {
+  border-radius:15px!important;
+  font-size:larger;
+  margin:2%!important;
+  height:100px;
+  width:100px;
+  box-shadow:2px 2px rgba(0, 0, 0, 0.16);
+}
+
+footer {
+  font-size:18px;
+  color:#383838;
+  text-shadow:2px 2px rgba(0, 0, 0, 0.15);
+  position:absolute;
+  bottom:0;
+  margin-bottom:-15em;
+  margin-top:2%;
+  width:100%;
+}
